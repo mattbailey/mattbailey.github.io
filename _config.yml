@@ -1,0 +1,6 @@
+name: mdb.io
+markdown: redcarpet
+pygments: true
+source: .
+destination: /home/mbailey/var/www
+baseurl: /

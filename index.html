@@ -1,1 +1,35 @@
-Hello World
+---
+layout: default
+title: "Matt Bailey | mdb.io"
+---
+<html>
+  <head>
+    <title>Matt Bailey | mdb.io</title>
+    <link rel="stylesheet" type="text/css" href="/css/site.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="hi">
+        hi.
+      </div>
+      <div id="pipe">|</div>
+      <div id="links">
+        <ul id="links">
+          <li><a href="http://github.com/mattbailey">GitHub</a></li>
+          <li><a href="http://twitter.com/m_bailey">Twitter</a></li>
+          <li><a href="http://www.flickr.com/photos/system42/sets/">Flickr</a></li>
+          <li><a href="http://www.linkedin.com/in/mdbailey">LinkedIn</a></li>
+        </ul>
+        <br/><br/><a href="http://internetdefenseleague.org"><img src="/images/footer_badge.png" alt="Member of The Internet Defense League" /></a>
+      </div>
+      <div id="posts">
+        <ul id="posts">
+          {% for post in site.posts %}
+          <li><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <a href='https://alpha.app.net/ribo' style="visibility:hidden;" rel='me'>...</a>
+  </body>
+</html>
