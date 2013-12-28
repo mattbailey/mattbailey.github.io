@@ -10,35 +10,26 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/site.css">
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+    <div id="main">
+      <div id="hi">
+        hi.
+      </div>
+      <div id="pipe">|</div>
+      <div id="links">
+        <ul id="links">
+          <li><a href="http://github.com/mattbailey">GitHub</a></li>
+          <li><a href="http://twitter.com/m_bailey">Twitter</a></li>
+          <li><a href="http://www.flickr.com/photos/system42/sets/">Flickr</a></li>
+          <li><a href="http://www.linkedin.com/in/mdbailey">LinkedIn</a></li>
+        </ul>
+        <br/><br/><a href="http://internetdefenseleague.org"><img src="/images/footer_badge.png" alt="Member of The Internet Defense League" /></a>
+      </div>
+      {{ content }}
+    </div>
+    <a href='https://alpha.app.net/ribo' style="visibility:hidden;" rel='me'>...</a>
+  </body>
 </html>
