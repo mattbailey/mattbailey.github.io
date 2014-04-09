@@ -30,7 +30,7 @@ div#main {
 }
 div#hi {
   float: left;
-  font-size: 120pt;
+  font-size: 35pt;
   margin-top:0.4em;
   margin-right:0.2em;
   font-style: italic;
@@ -38,6 +38,7 @@ div#hi {
 }
 div#pipe {
   float: left;
+  margin-left: 200px;
   font-size: 320pt;
   font-style: italic;
   height: 0.8em;
