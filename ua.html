@@ -1,9 +1,12 @@
 <html>
 <body>
 <pre id="navigator"></pre>
+<pre id="ua"></pre>
 <script>
 var el = document.getElementById('navigator');
 el.innerHTML = navigator.platform;
+var el = document.getElementById('ua');
+el.innerHTML = navigator.userAgent;
 </script>
 </body>
 </html>
